@@ -1,0 +1,53 @@
+.introduction {
+  background-color: rgb(24, 49, 53);
+  display: flex;
+}
+
+.introduction p {
+  max-width: 640px;
+  font-size: 18px;
+  margin-bottom: var(--space-big);
+}
+
+.introduction .personal-info {
+  margin-bottom: var(--space-big);
+  text-align: center;
+}
+
+.introduction .info-right .picture {
+  box-sizing: border-box;
+  max-width: 120px;
+  border-radius: 50%;
+  border: solid 6px palevioletred;
+  margin-bottom: var(--space-small);
+  margin-top: var(--space-large);
+  padding-left: 0 50px;
+}
+.introduction .subtitle {
+  font-size: 24px;
+  margin-bottom: var(--space-big);
+  font-weight: 600;
+  color: palevioletred;
+}
+
+.introduction .personal-info .info-left {
+  color: white;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+.introduction .personal-info .info-right {
+  margin-right: -50%;
+}
+
+@media (min-width: 550px) {
+  .introduction .personal-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+  .introduction .picture {
+    margin-right: var(--space-big);
+  }
+}

@@ -1,0 +1,27 @@
+.contat-list {
+    padding-left: 0;
+    background-color: rgb(24, 49, 53);
+  }
+  .contat-list li {
+    list-style-type: none;
+  }
+  .contat-list a {
+    display: inline-block;
+    box-sizing: border-box;
+    margin-bottom: var(--space-small);
+    padding: var(--space-smaller) var(--space-small);
+    color: white;
+    border: solid var(--space-smaller) white;
+  }
+  
+  .contat-list i {
+    margin-right: var(--space-smaller);
+  }
+  
+  .contat-list a:hover {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: solid var(--space-smaller) black;
+  }
+  
